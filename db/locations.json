@@ -1,0 +1,28 @@
+{
+  "locations": [
+    {
+        "locationImage": "https://c1.staticflickr.com/3/2617/4125567741_fe4755a2ba_b.jpg",
+        "Name": "Wild Horse Saloon",
+        "locationAddress": "120 Second Ave North, Nashville, TN 37201",
+        "timesFrequents": "morning"
+    },
+    {
+      "locationImage": "https://s3-media4.fl.yelpcdn.com/bphoto/zakcVu3hNPch_gAxlfuolw/ls.jpg",
+      "Name": "Kung Fu Saloon",
+      "locationAddress": "1921 Division St, Nashville, TN 37203",
+      "timesFrequents": "afternoon"
+    },
+    {
+      "locationImage": "http://dawghousesaloon.com/wp-content/uploads/2014/11/beer-taps-e1431444740166.jpg",
+      "Name": "Dawg House Saloon",
+      "locationAddress": "1522 Demonbreun St, Nashville, TN 37203",
+      "timesFrequents": "evening"
+    },
+    {
+      "locationImage": "https://static.wixstatic.com/media/75abd3_4d1c5d028689448da52df506d2fc2a93~mv2.jpg/v1/fill/w_314,h_472,al_c,q_90,usm_0.66_1.00_0.01/75abd3_4d1c5d028689448da52df506d2fc2a93~mv2.webp",
+      "Name": "Whiskey Bent Saloon",
+      "locationAddress": "306 Broadway, Nashville, TN 37201",
+      "timesFrequents": "wee hours"
+    }
+  ]
+}
