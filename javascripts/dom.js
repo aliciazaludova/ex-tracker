@@ -11,4 +11,25 @@ const writeEx = (ex) => {  // pass in 'ex' which is not a placeholder but the na
   return domString;
 };
 
-module.exports = writeEx;
+const writeLocations = (locations) => {
+  console.log(writeLocations);
+  let locationString = '';
+  locationString += `<div class="container-fluid">`;
+  locationString += `<div class="row">`;
+  locations.forEach((location) => {
+    locationString += `<div class="col-sm-6">`;
+    locationString += `<img class="loc-image" src=${location.locImage}>`;
+    locationString += `<h2>${location.locName}</h2>`;
+    locationString += `<h2>${location.locAddress}"</h2>`;
+    locationString += `<h2>${location.times}</h2>`;
+    locationString += `</div>`;
+  });
+  locationString += `</div>`;
+  locationString += `</div>`;
+  return locationString;
+};
+
+module.exports = {
+  writeEx,
+  writeLocations,
+};
